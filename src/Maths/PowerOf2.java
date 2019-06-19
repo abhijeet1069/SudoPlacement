@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 class Solver1{
     public String powerOf2(long a){
         double res = Math.log(a)/Math.log(2);
-        res = (double)Math.round(res*100000d)/100000d; //rounding numbers
+        res = (double)Math.round(res*100000d)/100000d; //546.56479874 -> 546.5648
         if(res - (long)res == 0)
             return "YES";
         else
