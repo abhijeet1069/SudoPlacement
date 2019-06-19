@@ -21,7 +21,7 @@ public class LCM_GCD {
         Solver solve = new Solver();
         for (int i = 0; i < test; i++){
             String line = br.readLine();
-            String[] strs = line.trim().split("\\s+");
+            String[] strs = line.trim().split("\\s+"); //Multiple number input
             int a = Integer.parseInt(strs[0]);
             int b = Integer.parseInt(strs[1]);
             int gcd = solve.GCD(a,b);
