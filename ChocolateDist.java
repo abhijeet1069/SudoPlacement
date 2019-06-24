@@ -17,7 +17,7 @@ class ChocolateDistLogic{
 
 public class ChocolateDist {
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //Input
         int test = Integer.parseInt(br.readLine());
         ChocolateDistLogic solve = new ChocolateDistLogic();
         for (int i = 0; i < test; i++) {
