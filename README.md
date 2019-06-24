@@ -1,2 +1,2 @@
 # SudoPlacement
-Repository contains sample templates of JAVA programs.
+Sample codes of JAVA
