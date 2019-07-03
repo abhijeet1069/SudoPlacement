@@ -8,12 +8,12 @@ public class Prob1 {
 
     public int countCycle(int n, int ctr){
 
-        if(numCycle.containsKey(n))
+        if(numCycle.containsKey(n)) //check if paricular key present
             return ctr;
 
         else{
             if(n==1) {
-                numCycle.put(n, ctr);
+                numCycle.put(n, ctr); //new entry
                 return ctr;
             }
             else if(n%2 == 0)
