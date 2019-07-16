@@ -8,7 +8,7 @@ public class Prob1 {
 
     public int countCycle(int n, int ctr){
 
-        if(numCycle.containsKey(n)) //check if paricular key present
+        if(numCycle.containsKey(n)) //Memoization
             return ctr;
 
         else{
