@@ -2,7 +2,7 @@ public class MaxInArray {
 
     public static int recMax(int[] arr, int left, int right){
         int mid = (left+right)/2;
-        if(left == right)
+        if(left == right) 
             return arr[left];
         return (Math.max(recMax(arr, left, mid),recMax(arr, mid+1, right)));
     }
