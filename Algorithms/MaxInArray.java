@@ -1,4 +1,4 @@
-public class RecTest {
+public class MaxInArray {
 
     public static int recMax(int[] arr, int left, int right){
         int mid = (left+right)/2;
