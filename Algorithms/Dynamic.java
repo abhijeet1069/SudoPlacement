@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.HashMap;
 
-public class Prob1 {
+public class Dynamic {
     HashMap<Integer,Integer> numCycle = new HashMap<>();
 
     public int countCycle(int n, int ctr){
