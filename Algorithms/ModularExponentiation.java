@@ -4,7 +4,7 @@ class ModularExponentiation{
         base = base % n;
         int res = 1;
         while(pow > 0){
-            if((pow & 1) == 1) //Inner base compulsory
+            if((pow & 1) == 1) //Inner braces compulsory for bitwise
                 res = (res * base) % n;
             pow = pow >> 1;
             base = (base*base)%n;
