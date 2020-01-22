@@ -48,7 +48,7 @@ public:
 
 
 int main() {
-	Stack s1;
+	Stack s1; //constructor called automatically
 	s1.printStack();
 
 	Stack s2;
